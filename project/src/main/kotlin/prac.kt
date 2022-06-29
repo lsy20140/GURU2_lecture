@@ -1,44 +1,19 @@
-
-
-fun main() {
-    // hw02-04
-    for(i in 5..8 ){
-        for(j in 1..9)
-            println("$i X $j = ${i*j}")
-        println("-----------")
-    }
-
-    // hw02-05
-    var sum = 0
-    var x = 0
-
-    while(x <= 100){
-        if(x%2==1){
-            sum+=x
-        }
-        x++
-    }
-    println("$sum")
-
-
-    sum = 0
-    x = 0
-
-    for(x in 1..100){
-        if (x%2==1)
-            sum+=x
-    }
-    println("$sum")
-
-    
-    sum = 0
-    x = 0
-
-    for(x in 1..100 step 2){
-        sum += x
-    }
-    println("$sum")
+fun sum(a: Int, b: Int) = a + b
+fun sub(a: Int, b: Int): Int = a-b
+fun mul(a: Int, b: Int): Int{
+    return a*b
 }
 
+fun main() {
+    var num1 : Int
+    var num2 : Int
 
+    println("number1 = ")
+    num1= readLine()!!.toInt()
+    println("number2 = ")
+    num2= readLine()!!.toInt()
 
+    println(sum(num1, num2))
+    println(sub(num1, num2))
+    println(mul(num1, num2))
+}
