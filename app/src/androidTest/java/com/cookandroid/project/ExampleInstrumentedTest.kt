@@ -1,4 +1,4 @@
-package com.cookandroid.wk1_1
+package com.cookandroid.project
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

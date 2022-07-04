@@ -1,4 +1,4 @@
-package com.cookandroid.wk1_1
+package com.cookandroid.project
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

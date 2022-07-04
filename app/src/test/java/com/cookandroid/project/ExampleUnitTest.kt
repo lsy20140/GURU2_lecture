@@ -1,4 +1,4 @@
-package com.cookandroid.wk1_1
+package com.cookandroid.project
 
 import org.junit.Test
 
