@@ -11,10 +11,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Wk1_1"
+        android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
-            android:name="com.cookandroid.project.MainActivity"
+            android:name=".Timer"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Hw02"></activity>
+        <activity android:name=".Hw03"></activity>
+        <activity android:name=".Hw09_result"
+               android:parentActivityName=".Hw09"></activity>
+        <activity android:name=".Hw09"></activity>
+
+
     </application>
 
 </manifest>
